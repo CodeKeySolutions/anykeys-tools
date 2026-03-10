@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "name": "Kingston-FURY",
+      "url": "https://www.alternate.nl/Kingston-FURY/32-GB-DDR5-6000-2x-16-GB-Kit-werkgeheugen/html/product/100052230",
+      "price_selector": "span.price",
+      "selectors": {
+        "price": "span.price",
+        "title": "div.product-name>h2>span"
+      }
+    }
+   
+  ],
+  "vendors": [
+    {
+      "name": "Example Store",
+      "base_url": "https://www.example.com",
+      "default_selectors": {
+        "price": ".price",
+        "title": "h1"
+      }
+    }
+  ]
+}
